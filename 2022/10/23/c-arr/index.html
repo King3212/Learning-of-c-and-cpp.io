@@ -101,7 +101,7 @@
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> arr[<span class="number">10</span>]=&#123;<span class="number">0</span>&#125;</span><br><span class="line">cout &lt;&lt; arr[<span class="number">10</span>] &lt;&lt; endl;</span><br></pre></td></tr></table></figure>
 
 <p>我们知道数组中的下标从0开始<br>与此同时，也需要注意到下标到<code>n-1</code>时就结束了<br>于是，上述使用访问了一个错误的位置<br>而此时，不同编译器会有不同的反应(有可能不会报错)</p>
-<p>要具象的了解这个模型可以借助下图<br><code>arr[7]</code>开辟了7个空间：<br><img src="/arr_coml01.png" alt="数组解释图"><br>故我们不能访问arr[7](因为图里没有)</p>
+<p>要具象的了解这个模型可以借助下图<br><code>arr[7]</code>开辟了7个空间：<br><img src="https://raw.githubusercontent.com/King3212/Picture/main/arr_coml01.png" alt="数组解释图"><br>故我们不能访问arr[7](因为图里没有)</p>
 <p>完。</p>
 
       
